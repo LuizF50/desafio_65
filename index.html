@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caverna dos Números Místicos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>A Caverna dos Números Místicos</h1>
+        <p>Em um mundo de magia e mistérios, você descobre uma caverna ancestral que guarda um tesouro lendário.
+            Para atravessar suas portas seladas, deve decifrar o enigma dos Números Mágicos, um código deixado por uma
+            civilização esquecida.
+            Apenas os mais astutos e corajosos triunfarão.
+            Você conseguirá desvendar o segredo ou ficará preso para sempre na escuridão?</p>
+
+        <div class="input-container">
+            <label for="numbersInput">Insira sete números inteiros separados por vírgula:</label>
+            <input type="text" id="numbersInput" placeholder="Ex: 30,15,22,15,42,7,2">
+        </div>
+
+        <div class="frame">
+            <button id="solveBtn" class="custom-btn btn-8"><span>Resolver Enigma</span></button>
+        </div>
+
+        <div id="resultContainer" class="hidden">
+            <h2>O Segundo Menor Número Místico é:</h2>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
